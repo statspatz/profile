@@ -1,0 +1,132 @@
+body{
+  margin: 0;
+  text-align: center;
+  line-height: 2;
+  background-color:  white;
+}
+
+
+h1{
+  margin: 0 auto 0 auto;
+  font-family: 'Sacramento', cursive;
+  font-size:5.625rem;
+  color: #66bfbf;
+}
+
+h2{
+  margin: 0 auto 0 auto;
+  font-family: 'Montserrat', sans-serif;
+  color: #66bfbf;
+  font-size: 2.5rem;
+}
+
+h3{
+  font-family: 'Montserrat', sans-serif;
+  color: #11999e;
+}
+
+hr{
+  border-style: none;
+  border-top-style: dotted;
+  border-color: grey;
+  border-width: 5px;
+  width: 5%;
+
+}
+
+p{
+  font-family: 'Merriweather', serif;
+  font-weight: bold;
+  color: #40514e;
+
+}
+
+a{
+  font-family: 'Montserrat', sans-serif;
+  color: #11999e;
+  padding: 20px;
+}
+/***************************** CLASS TAGS ***************************/
+
+.bottom-cloud{
+  position: absolute;
+}
+
+.bottom-container{
+  background-color: #66bfbf;
+  padding-bottom: 20px;
+  padding-top: 20px;
+  }
+
+.box200{
+  width: 200px;
+  height: 200px;
+}
+
+.btn {
+  margin:30px auto;
+  border-radius: 13px;
+  font-family: 'Montserrat', sans-serif;
+  color: white;
+  font-size: 1.5rem;
+  font-weight: bold;
+  background-image: linear-gradient(to bottom, #66bfbf, #11999e);
+  padding: 8px 12px 8px 12px;
+  text-decoration: none;
+  display: inline-block;
+}
+
+/*.btn:hover {
+  background: #fcfc3c;
+  background-image: -webkit-linear-gradient(top, #fcfc3c, #3498db);
+  background-image: -moz-linear-gradient(top, #fcfc3c, #3498db);
+  background-image: -ms-linear-gradient(top, #fcfc3c, #3498db);
+  background-image: -o-linear-gradient(top, #fcfc3c, #3498db);
+  background-image: linear-gradient(to bottom, #fcfc3c, #3498db);
+}*/
+
+.contact-me{
+  width: 40%;
+}
+
+.middle-container{
+  background-color:  white;
+}
+
+.middle-div{
+ margin: 80px auto;
+}
+
+.top-cloud{
+  position: relative;
+  left: 200px;
+}
+
+.top-container{
+  margin-left: 0;
+  background-color: #eaf6f6;
+  position: relative;
+  padding-top: 30px;
+
+}
+
+
+.skills{
+  /*display: inline-block;*/
+  margin: 100px auto;
+  width: 50%;
+  text-align: left;
+  line-height: 2;
+}
+
+.comp-image{
+  width: 25%;
+  float: left;
+  margin-right: 30px;
+}
+
+.chilli-image{
+  width: 25%;
+  float: right;
+  margin-left: 30px;
+}
